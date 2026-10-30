@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-labelledby="title desc">
+  <title id="title">The unilateral transform carries initial state into the algebraic equation</title>
+  <desc id="desc">The time domain mass spring damper equation transforms into an algebraic equation for Q of s. The input transform U of s and the initial displacement q0 and initial velocity v0 enter as separate source terms. Only setting both initial values to zero removes the initial state source.</desc>
+  <defs>
+    <marker id="signal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#2269B0"/></marker>
+    <marker id="state" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#966007"/></marker>
+  </defs>
+  <rect x="1" y="1" width="478" height="438" rx="10" fill="#FFFFFF" stroke="#D4DEE8"/>
+  <g font-family="Arial, sans-serif" fill="#172B42" font-size="28" text-anchor="middle">
+    <text x="240" y="35" font-size="26">Time domain → s domain</text>
+    <rect x="38" y="62" width="404" height="85" rx="5" fill="#EAF0F6" stroke="#56697C"/>
+    <text x="240" y="95">Time-domain ODE</text>
+    <text x="240" y="129" fill="#2269B0">q̈ + 3q̇ + 2q = u</text>
+    <path d="M240 147V202" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <text x="327" y="181" font-size="22">Transform</text>
+    <rect x="24" y="211" width="432" height="89" rx="5" fill="#EAF0F6" stroke="#2269B0"/>
+    <text x="240" y="246">(s<tspan baseline-shift="super" font-size="17">2</tspan> + 3s + 2) Q(s)</text>
+    <text x="240" y="282">= U(s) + (s + 3)q<tspan baseline-shift="sub" font-size="17">0</tspan> + v<tspan baseline-shift="sub" font-size="17">0</tspan></text>
+    <path d="M240 352V310" stroke="#966007" stroke-width="3" marker-end="url(#state)"/>
+    <rect x="70" y="357" width="340" height="56" rx="5" fill="#FAF2DD" stroke="#966007"/>
+    <text x="240" y="393" fill="#966007">Initial memory: q<tspan baseline-shift="sub" font-size="17">0</tspan>, v<tspan baseline-shift="sub" font-size="17">0</tspan></text>
+  </g>
+</svg>

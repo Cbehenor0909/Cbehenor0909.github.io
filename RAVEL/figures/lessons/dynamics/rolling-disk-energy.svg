@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 450" width="480" height="450" role="img" aria-labelledby="title desc">
+<title id="title">Energy exchange in a rolling disk</title><desc id="desc">A uniform disk rolls down a fixed ramp. Its COM lowers by zero point three meters; velocity is downhill and rotation is clockwise. The potential loss of five point eight eight six joules divides into three point nine two four joules of translation and one point nine six two joules of rotation.</desc>
+<defs>
+<marker id="dark" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#172B42"/></marker>
+<marker id="blue" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#2269B0"/></marker>
+<marker id="red" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#B93C3B"/></marker>
+<marker id="ochre" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#966007"/></marker>
+</defs>
+<style>text{font-family:"Segoe UI",Arial,sans-serif;font-size:20px;fill:#172B42} .heading{font-size:22px;font-weight:600} .muted{fill:#56697C} .blue{fill:#2269B0} .red{fill:#B93C3B} .ochre{fill:#966007} .axis{stroke:#172B42;stroke-width:2;fill:none;marker-end:url(#dark)} .geometry{stroke:#172B42;stroke-width:3;fill:#EAF0F6} .velocity{stroke:#2269B0;stroke-width:3;fill:none;marker-end:url(#blue)} .force{stroke:#B93C3B;stroke-width:3;fill:none;marker-end:url(#red)} .guide{stroke:#A9B8C7;stroke-width:1.8;stroke-dasharray:6 5;fill:none} .highlight{stroke:#966007;stroke-width:3;fill:none;marker-end:url(#ochre)} .sub{font-size:15px}</style>
+<rect x="1" y="1" width="478" height="448" rx="8" fill="#FFFFFF" stroke="#D3DDE7"/>
+
+<text x="24" y="34" class="heading">One energy loss; two kinetic stores</text>
+<path d="M60 150 L420 294" stroke="#172B42" stroke-width="4" fill="none"/>
+<circle cx="118" cy="136.58" r="34" fill="#EAF0F6" stroke="#56697C" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="333" cy="222.58" r="34" class="geometry"/><circle cx="118" cy="136.58" r="5" fill="#966007"/><circle cx="333" cy="222.58" r="5" fill="#966007"/>
+<path class="guide" d="M118 136.58 H439 M333 222.58 H439"/><path d="M435 136.58 V222.58 M429 136.58 H441 M429 222.58 H441" stroke="#966007" stroke-width="2" fill="none"/>
+<text x="280" y="125" class="ochre">h = 0.3 m</text>
+<path class="velocity" d="M333 222.58 L406 251.78"/><text x="398" y="278" class="blue">v<tspan class="sub" baseline-shift="sub">C</tspan></text>
+<path class="velocity" d="M303 192.58 A42 42 0 0 1 374 216.58"/><text x="378" y="192" class="blue">ω</text>
+<text x="43" y="102" class="muted">Start at rest</text><text x="25" y="331">Fixed ramp; rolling without slipping.</text>
+<rect x="24" y="352" width="288" height="76" rx="3" fill="#EAF0F6" stroke="#2269B0" stroke-width="2"/>
+<rect x="312" y="352" width="144" height="76" rx="3" fill="#FFF4DE" stroke="#966007" stroke-width="2"/>
+<text x="42" y="384" class="blue">Translation</text><text x="42" y="413" class="blue">3.924 J</text>
+<text x="327" y="384" class="ochre">Rotation</text><text x="327" y="413" class="ochre">1.962 J</text>
+
+</svg>

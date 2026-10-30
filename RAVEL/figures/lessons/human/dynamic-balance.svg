@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 570" role="img" aria-labelledby="title desc">
+  <title id="title">COM position, velocity and extrapolated COM</title>
+  <desc id="desc">A fixed-height point-mass model has a filled ochre COM, blue forward velocity and teal COP. A ground strip shows COM at 0.020 metres inside a support interval from minus 0.100 to plus 0.100 metres, while hollow XCoM at 0.1158 metres is outside.</desc>
+  <defs><marker id="v" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#2269B0"/></marker><marker id="f" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#B93C3B"/></marker></defs>
+  <rect width="480" height="570" fill="#FFFFFF"/>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#172B42">
+    <text x="24" y="33" font-weight="600">Same COM position, different future</text>
+    <path d="M95 272H409" stroke="#56697C" stroke-width="2"/>
+    <path d="M225 272L251 115" stroke="#172B42" stroke-width="4"/>
+    <path d="M225 269L241 170" stroke="#B93C3B" stroke-width="4" marker-end="url(#f)"/>
+    <circle cx="251" cy="115" r="11" fill="#966007"/>
+    <text x="226" y="85" fill="#966007">COM</text>
+    <path d="M267 115H378" stroke="#2269B0" stroke-width="4" marker-end="url(#v)"/>
+    <text x="287" y="145" fill="#2269B0">velocity</text>
+    <path d="M225 260V284M213 272H237" stroke="#087478" stroke-width="4"/>
+    <text x="171" y="307" fill="#087478">COP</text>
+    <text x="185" y="207" fill="#B93C3B">F</text>
+    <path d="M130 115V272M121 115H141M121 272H141" stroke="#56697C" stroke-width="2"/>
+    <text x="24" y="199">h = 1 m</text>
+    <path d="M251 125V272" stroke="#966007" stroke-width="1.5" stroke-dasharray="5 5"/>
+    <path d="M24 335H456" stroke="#C8D4E0"/>
+    <text x="24" y="370" font-weight="600">Ground positions · worked model</text>
+    <rect x="70" y="408" width="280" height="44" fill="#2269B0" fill-opacity="0.10" stroke="#2269B0" stroke-width="2"/>
+    <text x="115" y="439" fill="#2269B0">Support interval</text>
+    <path d="M50 480H422" stroke="#56697C" stroke-width="2"/>
+    <path d="M70 475V486M210 475V486M350 475V486" stroke="#56697C" stroke-width="2"/>
+    <text x="37" y="516">−0.100</text><text x="201" y="516">0</text><text x="315" y="516">0.100</text>
+    <circle cx="238" cy="480" r="8" fill="#966007"/>
+    <path d="M238 472V393" stroke="#966007" stroke-width="1.5"/>
+    <text x="218" y="400" fill="#966007">x</text>
+    <circle cx="372.12" cy="480" r="9" fill="#FFFFFF" stroke="#966007" stroke-width="3"/>
+    <path d="M372.12 471V393" stroke="#966007" stroke-width="1.5"/>
+    <text x="361" y="400" fill="#966007">XCoM</text>
+    <text x="24" y="550" fill="#56697C">x = 0.020 m · XCoM = 0.1158 m</text>
+  </g>
+</svg>

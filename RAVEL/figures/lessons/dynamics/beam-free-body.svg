@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 450" width="480" height="450" role="img" aria-labelledby="title desc">
+<title id="title">Beam free-body diagram and moment arms</title><desc id="desc">A two meter beam has a pin at A and roller at B. Downward forces are forty newtons at one meter and one hundred newtons at one and a half meters. Upward reactions are forty-five and ninety-five newtons. Distance ticks mark each force location.</desc>
+<defs>
+<marker id="dark" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#172B42"/></marker>
+<marker id="blue" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#2269B0"/></marker>
+<marker id="red" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#B93C3B"/></marker>
+<marker id="ochre" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#966007"/></marker>
+</defs>
+<style>text{font-family:"Segoe UI",Arial,sans-serif;font-size:20px;fill:#172B42} .heading{font-size:22px;font-weight:600} .muted{fill:#56697C} .blue{fill:#2269B0} .red{fill:#B93C3B} .ochre{fill:#966007} .axis{stroke:#172B42;stroke-width:2;fill:none;marker-end:url(#dark)} .geometry{stroke:#172B42;stroke-width:3;fill:#EAF0F6} .velocity{stroke:#2269B0;stroke-width:3;fill:none;marker-end:url(#blue)} .force{stroke:#B93C3B;stroke-width:3;fill:none;marker-end:url(#red)} .guide{stroke:#A9B8C7;stroke-width:1.8;stroke-dasharray:6 5;fill:none} .highlight{stroke:#966007;stroke-width:3;fill:none;marker-end:url(#ochre)} .sub{font-size:15px}</style>
+<rect x="1" y="1" width="478" height="448" rx="8" fill="#FFFFFF" stroke="#D3DDE7"/>
+
+<text x="24" y="34" class="heading">Balance force and moment</text>
+<path d="M70 205 H410" stroke="#172B42" stroke-width="10"/>
+<path d="M70 213 L50 247 H90 Z" class="geometry"/><path d="M410 213 L390 243 H430 Z" class="geometry"/>
+<circle cx="399" cy="251" r="6" fill="#FFFFFF" stroke="#172B42" stroke-width="2"/><circle cx="421" cy="251" r="6" fill="#FFFFFF" stroke="#172B42" stroke-width="2"/>
+<path d="M44 262 H96 M384 262 H436" stroke="#56697C" stroke-width="2"/>
+<path class="force" d="M70 205 V99"/><path class="force" d="M410 205 V99"/>
+<text x="28" y="79" class="red">A<tspan class="sub" baseline-shift="sub">y</tspan> = 45 N</text><text x="328" y="79" class="red">B<tspan class="sub" baseline-shift="sub">y</tspan> = 95 N</text>
+<path class="force" d="M240 205 V307"/><path class="force" d="M325 205 V307"/>
+<text x="197" y="334" class="red">40 N</text><text x="309" y="334" class="red">100 N</text>
+<circle cx="240" cy="205" r="6" fill="#966007"/><text x="226" y="185" class="ochre">C</text>
+<text x="64" y="289">A</text><text x="404" y="289">B</text>
+<path d="M70 370 H410 M70 363 V377 M240 363 V377 M325 363 V377 M410 363 V377" fill="none" stroke="#56697C" stroke-width="2"/>
+<text x="60" y="401">0</text><text x="226" y="401">1</text><text x="309" y="401">1.5</text><text x="397" y="401">2 m</text>
+<text x="24" y="423" class="muted">A is a pin; B is a roller. A<tspan class="sub" baseline-shift="sub">x</tspan> = 0.</text>
+
+</svg>

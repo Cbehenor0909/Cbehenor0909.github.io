@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 565" role="img" aria-labelledby="title desc">
+  <title id="title">Sampling and estimation preserve meaning and timing</title>
+  <desc id="desc">The conceptual pipeline places anti-alias filtering before sampling, then calibration and time alignment before state estimation. A known input supports prediction. Estimate, uncertainty and timestamp reach feedback, while innovation compares prediction and measurement.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#56697C"/></marker></defs>
+  <rect width="480" height="565" fill="#FFFFFF"/>
+  <g font-family="system-ui,sans-serif" font-size="20" fill="#172B42">
+    <text x="240" y="28" text-anchor="middle" font-weight="600">From samples to useful feedback</text>
+    <text x="240" y="62" text-anchor="middle" fill="#087478">Symbolic sensor measurement</text>
+    <path d="M240 72V95" stroke="#56697C" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="107" y="106" width="266" height="57" rx="6" fill="#FFFFFF" stroke="#087478" stroke-width="2"/>
+    <text x="240" y="141" text-anchor="middle">Anti-alias filtering</text>
+    <path d="M240 169V188" stroke="#56697C" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="107" y="199" width="266" height="57" rx="6" fill="#FFFFFF" stroke="#087478" stroke-width="2"/>
+    <text x="240" y="234" text-anchor="middle">Sample + timestamp</text>
+    <path d="M240 262V281" stroke="#56697C" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="107" y="292" width="266" height="73" rx="6" fill="#EAF0F6" stroke="#2269B0" stroke-width="2"/>
+    <text x="240" y="321" text-anchor="middle">Calibrate axes and units</text><text x="240" y="350" text-anchor="middle">Align acquisition times</text>
+    <path d="M240 371V390" stroke="#56697C" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="107" y="401" width="266" height="57" rx="6" fill="#EAF0F6" stroke="#2269B0" stroke-width="2"/>
+    <text x="240" y="436" text-anchor="middle" fill="#2269B0">Predict + correct state</text>
+    <path d="M18 401V430H98" fill="none" stroke="#56697C" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="20" y="384" fill="#56697C">Known input</text>
+    <path d="M379 430H446V361" fill="none" stroke="#56697C" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="447" y="331" text-anchor="middle" fill="#56697C">Check</text><text x="447" y="356" text-anchor="middle" fill="#56697C">error</text>
+    <path d="M240 464V483" stroke="#56697C" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="107" y="494" width="266" height="57" rx="6" fill="#EAF0F6" stroke="#2269B0" stroke-width="2"/>
+    <text x="240" y="518" text-anchor="middle">Estimate + uncertainty</text><text x="240" y="542" text-anchor="middle">+ time → feedback</text>
+  </g>
+</svg>

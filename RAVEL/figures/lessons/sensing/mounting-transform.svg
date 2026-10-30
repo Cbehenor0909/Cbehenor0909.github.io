@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-labelledby="title desc">
+  <title id="title">A fixed sensor mounting moves with the segment</title>
+  <desc id="desc">Two schematic poses preserve the offset between sensor and segment axes. A coordinate transform chain maps sensor to segment to world.</desc>
+  <defs>
+    <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2269B0"/></marker>
+    <marker id="ochre" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#966007"/></marker>
+    <marker id="slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#56697C"/></marker>
+  </defs>
+  <rect width="480" height="440" fill="#FFFFFF"/>
+  <g font-family="system-ui,sans-serif" font-size="20" fill="#172B42">
+    <text x="240" y="30" text-anchor="middle" font-weight="600">Same mounting, different pose</text>
+    <text x="118" y="70" text-anchor="middle">Pose 1</text><text x="357" y="70" text-anchor="middle">Pose 2</text>
+    <rect x="104" y="118" width="32" height="112" rx="12" fill="#EAF0F6" stroke="#172B42" stroke-width="3"/>
+    <rect x="104" y="156" width="32" height="32" rx="4" fill="#FFFFFF" stroke="#172B42" stroke-width="3" transform="rotate(30 120 172)"/>
+    <path d="M120 232V99" fill="none" stroke="#966007" stroke-width="3" marker-end="url(#ochre)"/>
+    <path d="M120 172L167 91" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#blue)"/>
+    <path d="M120 133A39 39 0 0 1 139.5 138.2" fill="none" stroke="#966007" stroke-width="3"/>
+    <text x="75" y="105" fill="#966007">B</text><text x="172" y="106" fill="#2269B0">S</text>
+    <g transform="translate(357 232) rotate(-35)">
+      <rect x="-16" y="-114" width="32" height="112" rx="12" fill="#EAF0F6" stroke="#172B42" stroke-width="3"/>
+      <rect x="-16" y="-76" width="32" height="32" rx="4" fill="#FFFFFF" stroke="#172B42" stroke-width="3" transform="rotate(30 0 -60)"/>
+      <path d="M0 0V-133" fill="none" stroke="#966007" stroke-width="3" marker-end="url(#ochre)"/>
+      <path d="M0 -60L47 -141" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#blue)"/>
+      <path d="M0 -99A39 39 0 0 1 19.5 -93.8" fill="none" stroke="#966007" stroke-width="3"/>
+    </g>
+    <text x="261" y="117" fill="#966007">B</text><text x="322" y="110" fill="#2269B0">S</text>
+    <text x="240" y="266" text-anchor="middle">The local offset stays fixed.</text>
+    <text x="240" y="307" text-anchor="middle" fill="#56697C">Coordinate maps</text>
+    <rect x="20" y="325" width="100" height="55" rx="6" fill="#EAF0F6" stroke="#56697C"/>
+    <rect x="190" y="325" width="100" height="55" rx="6" fill="#EAF0F6" stroke="#56697C"/>
+    <rect x="360" y="325" width="100" height="55" rx="6" fill="#EAF0F6" stroke="#56697C"/>
+    <text x="70" y="359" text-anchor="middle">Sensor S</text><text x="240" y="359" text-anchor="middle">Body B</text><text x="410" y="359" text-anchor="middle">World N</text>
+    <path d="M127 352H181M297 352H351" stroke="#56697C" stroke-width="3" marker-end="url(#slate)"/>
+    <text x="154" y="408" text-anchor="middle">Mounting</text><text x="324" y="408" text-anchor="middle">Pose</text>
+  </g>
+</svg>

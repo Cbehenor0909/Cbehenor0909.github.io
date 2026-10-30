@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 390" width="480" height="390" role="img" aria-labelledby="title desc">
+<title id="title">Two contributions to inertial velocity</title><desc id="desc">At aligned axes, a point moves radially outward in a rotating slot. Its inertial velocity is the blue sum of outward relative speed u and upward carried speed Omega r. The rotating-frame origin is fixed.</desc>
+<defs>
+<marker id="dark" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#172B42"/></marker>
+<marker id="blue" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#2269B0"/></marker>
+<marker id="red" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#B93C3B"/></marker>
+<marker id="ochre" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#966007"/></marker>
+</defs>
+<style>text{font-family:"Segoe UI",Arial,sans-serif;font-size:20px;fill:#172B42} .heading{font-size:22px;font-weight:600} .muted{fill:#56697C} .blue{fill:#2269B0} .red{fill:#B93C3B} .ochre{fill:#966007} .axis{stroke:#172B42;stroke-width:2;fill:none;marker-end:url(#dark)} .geometry{stroke:#172B42;stroke-width:3;fill:#EAF0F6} .velocity{stroke:#2269B0;stroke-width:3;fill:none;marker-end:url(#blue)} .force{stroke:#B93C3B;stroke-width:3;fill:none;marker-end:url(#red)} .guide{stroke:#A9B8C7;stroke-width:1.8;stroke-dasharray:6 5;fill:none} .highlight{stroke:#966007;stroke-width:3;fill:none;marker-end:url(#ochre)} .sub{font-size:15px}</style>
+<rect x="1" y="1" width="478" height="388" rx="8" fill="#FFFFFF" stroke="#D3DDE7"/>
+
+<text x="24" y="34" class="heading">The slot moves while the point slides</text>
+<path class="axis" d="M145 235 H250"/><path class="axis" d="M145 235 V77"/>
+<text x="215" y="265">b<tspan class="sub" baseline-shift="sub">x</tspan></text><text x="118" y="74">b<tspan class="sub" baseline-shift="sub">y</tspan></text>
+<path d="M145 235 H315" stroke="#172B42" stroke-width="7"/>
+<circle cx="315" cy="235" r="7" fill="#966007"/><circle cx="145" cy="235" r="4" fill="#172B42"/>
+<text x="119" y="265">O</text><text x="310" y="267" class="ochre">P</text><text x="230" y="213">r</text>
+<path class="velocity" d="M315 235 H419"/><text x="366" y="264" class="blue">u</text>
+<path class="velocity" d="M315 235 V90"/><text x="238" y="107" class="blue">Ωr</text>
+<path class="velocity" d="M315 235 L419 90" stroke-dasharray="7 5"/><text x="428" y="91" class="blue">v</text>
+<path class="guide" d="M315 90 H419 V235"/>
+<path class="velocity" d="M84 190 A75 75 0 0 0 77 266"/><text x="40" y="195" class="blue">Ω</text>
+<text x="24" y="329">N is fixed; B rotates counterclockwise.</text>
+<text x="24" y="364" class="muted">Velocity arrows use one schematic scale.</text>
+
+</svg>

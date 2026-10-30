@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 580" role="img" aria-labelledby="title desc">
+  <title id="title">Mason graph of two independently regulated parallel paths</title>
+  <desc id="desc">Reference r connects to z1 through G1 and to z2 through G2. Both branch outputs connect to y with gain one. The only loop at z1 has gain minus G1 H1 and the only loop at z2 has gain minus G2 H2. The loops share no nodes, even though the forward paths share r and y.</desc>
+  <defs><marker id="signal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#2269B0"/></marker></defs>
+  <rect x="1" y="1" width="478" height="578" rx="10" fill="#FFFFFF" stroke="#D4DEE8"/>
+  <g font-family="Arial, sans-serif" fill="#172B42" font-size="28">
+    <text x="24" y="35">Two loops, no shared loop node</text>
+    <path d="M78 282L221 189" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <path d="M262 187L401 278" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <path d="M78 308L221 411" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <path d="M262 413L401 312" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <path d="M228 155C132 103 352 103 252 155" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <path d="M228 437C132 521 352 521 252 437" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <circle cx="60" cy="295" r="22" fill="#FFFFFF" stroke="#172B42" stroke-width="2"/>
+    <circle cx="240" cy="175" r="22" fill="#FFFFFF" stroke="#172B42" stroke-width="2"/>
+    <circle cx="240" cy="425" r="22" fill="#FFFFFF" stroke="#172B42" stroke-width="2"/>
+    <circle cx="420" cy="295" r="22" fill="#FFFFFF" stroke="#172B42" stroke-width="2"/>
+    <text x="60" y="305" text-anchor="middle">r</text>
+    <text x="240" y="184" text-anchor="middle">z<tspan baseline-shift="sub" font-size="18">1</tspan></text>
+    <text x="240" y="434" text-anchor="middle">z<tspan baseline-shift="sub" font-size="18">2</tspan></text>
+    <text x="420" y="305" text-anchor="middle">y</text>
+    <text x="127" y="221" fill="#2269B0">G<tspan baseline-shift="sub" font-size="18">1</tspan></text>
+    <text x="331" y="221" fill="#2269B0">1</text>
+    <text x="127" y="395" fill="#2269B0">G<tspan baseline-shift="sub" font-size="18">2</tspan></text>
+    <text x="331" y="395" fill="#2269B0">1</text>
+    <text x="240" y="84" text-anchor="middle">L<tspan baseline-shift="sub" font-size="18">1</tspan> = −G<tspan baseline-shift="sub" font-size="18">1</tspan>H<tspan baseline-shift="sub" font-size="18">1</tspan></text>
+    <text x="240" y="551" text-anchor="middle">L<tspan baseline-shift="sub" font-size="18">2</tspan> = −G<tspan baseline-shift="sub" font-size="18">2</tspan>H<tspan baseline-shift="sub" font-size="18">2</tspan></text>
+  </g>
+</svg>

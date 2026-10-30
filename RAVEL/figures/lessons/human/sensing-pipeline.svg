@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 730" role="img" aria-labelledby="title desc">
+  <title id="title">Human sensing to control pipeline</title>
+  <desc id="desc">A vertical explanatory chain begins with observed IMU, optical, force, EMG and image channels. Frame, clock and unit calibration and quality checks precede estimated states and a constrained controller. A return arrow connects action to the moving body that is observed.</desc>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#56697C"/></marker></defs>
+  <rect width="480" height="730" fill="#FFFFFF"/>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#172B42">
+    <text x="24" y="33" font-weight="600">Observations become estimated states</text>
+    <rect x="79" y="62" width="343" height="74" rx="5" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/>
+    <text x="101" y="93" font-weight="600">Moving body + contacts</text>
+    <text x="101" y="120">Physical motion and interaction</text>
+    <path d="M250 136V163" stroke="#56697C" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="79" y="171" width="343" height="103" rx="5" fill="#FFFFFF" stroke="#087478" stroke-width="2"/>
+    <text x="101" y="201" fill="#087478" font-weight="600">Observed channels</text>
+    <text x="101" y="230">IMU · optical · force</text>
+    <text x="101" y="258">EMG · images</text>
+    <path d="M250 274V301" stroke="#56697C" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="79" y="309" width="343" height="82" rx="5" fill="#FFFFFF" stroke="#56697C" stroke-width="2"/>
+    <text x="101" y="341" font-weight="600">Calibrate + align</text>
+    <text x="101" y="371">Frames · units · clocks</text>
+    <path d="M250 391V418" stroke="#56697C" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="79" y="426" width="343" height="76" rx="5" fill="#FFFFFF" stroke="#56697C" stroke-width="2"/>
+    <text x="101" y="457" font-weight="600">Check quality + availability</text>
+    <text x="101" y="487">Bias · clipping · gaps · delay</text>
+    <path d="M250 502V529" stroke="#56697C" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="79" y="537" width="343" height="76" rx="5" fill="#FFFFFF" stroke="#2269B0" stroke-width="2"/>
+    <text x="101" y="568" fill="#2269B0" font-weight="600">Estimate model states</text>
+    <text x="101" y="596">Pose · velocity · uncertainty</text>
+    <path d="M250 613V640" stroke="#56697C" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="79" y="648" width="343" height="59" rx="5" fill="#FFFFFF" stroke="#2269B0" stroke-width="2"/>
+    <text x="101" y="684" fill="#2269B0" font-weight="600">Constrained control → action</text>
+    <path d="M79 678H44V99H71" fill="none" stroke="#56697C" stroke-width="2" marker-end="url(#a)"/>
+    <text x="28" y="450" transform="rotate(-90 28 450)" fill="#56697C">Action changes motion</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 490" width="480" height="490" role="img" aria-labelledby="title desc">
+<title id="title">System and individual-body force balances</title><desc id="desc">The combined two and three kilogram blocks receive a ten newton external push and accelerate rightward at two meters per second squared. In separate free-body diagrams the six newton contact force acts leftward on A and rightward on B; these forces cancel only for the combined system.</desc>
+<defs>
+<marker id="dark" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#172B42"/></marker>
+<marker id="blue" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#2269B0"/></marker>
+<marker id="red" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#B93C3B"/></marker>
+<marker id="ochre" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#966007"/></marker>
+</defs>
+<style>text{font-family:"Segoe UI",Arial,sans-serif;font-size:20px;fill:#172B42} .heading{font-size:22px;font-weight:600} .muted{fill:#56697C} .blue{fill:#2269B0} .red{fill:#B93C3B} .ochre{fill:#966007} .axis{stroke:#172B42;stroke-width:2;fill:none;marker-end:url(#dark)} .geometry{stroke:#172B42;stroke-width:3;fill:#EAF0F6} .velocity{stroke:#2269B0;stroke-width:3;fill:none;marker-end:url(#blue)} .force{stroke:#B93C3B;stroke-width:3;fill:none;marker-end:url(#red)} .guide{stroke:#A9B8C7;stroke-width:1.8;stroke-dasharray:6 5;fill:none} .highlight{stroke:#966007;stroke-width:3;fill:none;marker-end:url(#ochre)} .sub{font-size:15px}</style>
+<rect x="1" y="1" width="478" height="488" rx="8" fill="#FFFFFF" stroke="#D3DDE7"/>
+
+<text x="24" y="34" class="heading">Choose the system boundary first</text>
+<rect x="100" y="66" width="288" height="142" rx="8" fill="none" stroke="#966007" stroke-width="2" stroke-dasharray="8 5"/>
+<rect x="119" y="103" width="106" height="82" class="geometry"/><rect x="225" y="103" width="140" height="82" class="geometry"/>
+<text x="136" y="140">A: 2 kg</text><text x="248" y="140">B: 3 kg</text>
+<path class="force" d="M27 167 H116"/><text x="24" y="146" class="red">10 N</text>
+<path class="velocity" d="M268 81 H354"/><text x="290" y="66" class="blue">a</text>
+<text x="119" y="235" class="ochre">Combined: only external push</text>
+<path d="M24 262 H456" stroke="#D3DDE7"/>
+<text x="24" y="295" class="heading">Separate free-body diagrams</text>
+<rect x="104" y="326" width="100" height="78" class="geometry"/><rect x="311" y="326" width="125" height="78" class="geometry"/>
+<text x="148" y="382">A</text><text x="366" y="382">B</text>
+<path class="force" d="M29 348 H103"/><text x="24" y="324" class="red">10 N</text>
+<path class="force" d="M204 348 H137"/><text x="150" y="324" class="red">6 N</text>
+<path class="force" d="M311 348 H393"/><text x="345" y="324" class="red">6 N</text>
+<text x="74" y="435">Net on A: 4 N</text><text x="298" y="435">Net on B: 6 N</text>
+<text x="24" y="477" class="muted">Inertial N; frictionless. Vertical loads balance.</text>
+
+</svg>

@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><meta name="description" content="Read five reviews and five representative method studies alongside the lessons, with original licensed figures and questions about their evidence."><link rel="canonical" href="https://cbehenor0909.github.io/RAVEL/notes/papers-human-sensing-robotics/"><link rel="icon" href="/RAVEL/favicon.svg" type="image/svg+xml"><title>Papers and Reviews · Human Sensing to Robotics · RAVEL</title><link rel="stylesheet" href="/RAVEL/_astro/Layout.C6X1kBSx.css"><style>.breadcrumb[data-astro-cid-pv3ckv2o]{color:var(--muted);margin-block:30px;font-size:12px}.breadcrumb[data-astro-cid-pv3ckv2o] ol[data-astro-cid-pv3ckv2o]{flex-wrap:wrap;gap:9px 12px;margin:0;padding:0;list-style:none;display:flex}.breadcrumb[data-astro-cid-pv3ckv2o] li[data-astro-cid-pv3ckv2o]{align-items:center;gap:12px;display:inline-flex}.breadcrumb[data-astro-cid-pv3ckv2o] li[data-astro-cid-pv3ckv2o]+li[data-astro-cid-pv3ckv2o]:before{content:"/";color:var(--muted);opacity:.5}.breadcrumb[data-astro-cid-pv3ckv2o] a[data-astro-cid-pv3ckv2o]{color:var(--muted);text-decoration:none}.breadcrumb[data-astro-cid-pv3ckv2o] a[data-astro-cid-pv3ckv2o]:hover,.breadcrumb[data-astro-cid-pv3ckv2o] [data-astro-cid-pv3ckv2o][aria-current]{color:var(--text)}
+</style><link rel="stylesheet" href="/RAVEL/_astro/reading.DIB_I7fa.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="wordmark" href="/RAVEL/" aria-label="RAVEL home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 24C7 7 14 4 19 13S26 26 29 7M4 24L17 20L29 7"></path><circle cx="19" cy="13" r="2.5"></circle></svg>RAVEL</a><nav class="desktop-nav" aria-label="Main navigation"><a href="/RAVEL/explore/">Explore</a><a href="/RAVEL/paths/">Learning Paths</a><a href="/RAVEL/notes/" aria-current="page">Notes</a><a href="/RAVEL/lab/">Lab Demos</a><a href="/RAVEL/about/">About</a></nav><a class="search-link" href="/RAVEL/search/" aria-label="Search RAVEL"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 5 5"></path></svg><span>Search</span></a><details class="mobile-menu"><summary>Menu <span aria-hidden="true">＋</span></summary><nav aria-label="Mobile navigation"><a href="/RAVEL/explore/">Explore</a><a href="/RAVEL/paths/">Learning Paths</a><a href="/RAVEL/notes/" aria-current="page">Notes</a><a href="/RAVEL/lab/">Lab Demos</a><a href="/RAVEL/about/">About</a></nav></details></div></header><main id="main" tabindex="-1"><nav class="breadcrumb" aria-label="Breadcrumb" data-astro-cid-pv3ckv2o><ol data-astro-cid-pv3ckv2o><li data-astro-cid-pv3ckv2o><a href="/RAVEL/notes/" data-astro-cid-pv3ckv2o>Notes</a></li><li data-astro-cid-pv3ckv2o><span aria-current="page" data-astro-cid-pv3ckv2o>Papers and Reviews · Human Sensing to Robotics</span></li></ol></nav><div class="note-reading-layout"><article><header class="note-heading"><p class="eyebrow">TEACHING NOTE / <time datetime="2026-10-04T00:00:00.000Z">2026-10-04</time></p><h1>Papers and Reviews · Human Sensing to Robotics</h1><p class="lead">Read five reviews and five representative method studies alongside the lessons, with original licensed figures and questions about their evidence.</p><p class="small muted">Human sensing · Robotics · systematic review · scoping review · IMU · OpenSim · OpenSense · OpenCap · impedance · admittance · papers</p></header><div class="prose"><h2 id="read-a-review-and-a-method-together">Read a review and a method together</h2>
+<p>A review maps approaches, evaluation choices and gaps. A primary paper specifies a method and reports evidence for a particular model, task, dataset or device. Read both beside the <a href="/RAVEL/paths/human-sensing-foundations/">Human Sensing path</a> and <a href="/RAVEL/paths/active-robotics-control/">Robotics Control path</a>. This is a selected reading route rather than an exhaustive or continuously updated literature search.</p>
+<h2 id="start-with-these-five-reviews">Start with these five reviews</h2>
+<ol>
+<li>
+<p><strong>Poitras et al. (2019), systematic review.</strong> <a href="https://doi.org/10.3390/s19071555">Validity and Reliability of Wearable Sensors for Joint Angle Estimation</a>. <em>Sensors</em> 19(7), 1555. Read beside <a href="/RAVEL/modules/relative-joint-kinematics/">relative joint kinematics</a>. Ask which joint, task, reference and metric support each validity or reliability claim. Repeatability and accuracy answer different questions.</p>
+</li>
+<li>
+<p><strong>Pacher et al. (2020), systematic review.</strong> <a href="https://doi.org/10.3390/s20113322">Sensor-to-Segment Calibration Methodologies for Lower-Body Kinematic Analysis with Inertial Sensors</a>. <em>Sensors</em> 20(11), 3322. Read beside <a href="/RAVEL/modules/sensor-segment-calibration/">mounting calibration</a>. Compare manual, static, functional and anatomical assumptions; heterogeneous evaluation protocols complicate method ranking.</p>
+</li>
+<li>
+<p><strong>Wade, Needham, McGuigan and Bilzon (2022), scoping review.</strong> <a href="https://doi.org/10.7717/peerj.12995">Applications and limitations of current markerless motion capture methods for clinical gait biomechanics</a>. <em>PeerJ</em> 10, e12995. Read beside <a href="/RAVEL/modules/human-motion-sensing/">human motion sensing</a>. Identify how camera configuration, motion reconstruction and anatomical interpretation enter a reported result.</p>
+</li>
+<li>
+<p><strong>Abu-Dakka and Saveriano (2020), review.</strong> <a href="https://doi.org/10.3389/frobt.2020.590681">Variable Impedance Control and Learning—A Review</a>. <em>Frontiers in Robotics and AI</em> 7, 590681. Read beside <a href="/RAVEL/modules/impedance-and-admittance/">impedance/admittance</a>. Locate which parameters vary, what drives adaptation and which stability assumptions survive the change.</p>
+</li>
+<li>
+<p><strong>Hogan (2022), review.</strong> <a href="https://doi.org/10.1146/annurev-control-042920-010933">Contact and Physical Interaction</a>. <em>Annual Review of Control, Robotics, and Autonomous Systems</em> 5, 179–203. Advanced reading for <a href="/RAVEL/modules/impedance-and-admittance/">interaction control</a>: connect apparent dynamics, actuation, contact and energy exchange before interpreting a compliance command.</p>
+</li>
+</ol>
+<h2 id="then-follow-five-complete-methods">Then follow five complete methods</h2>
+<table>
+<thead>
+<tr>
+<th>Method paper</th>
+<th>Read it for</th>
+<th>Connect to the lesson</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Valenti, Dryanovski and Xiao (2015).</strong> <a href="https://doi.org/10.3390/s150819302">Keeping a Good Attitude: A Quaternion-Based Orientation Filter for IMUs and MARGs</a>. <em>Sensors</em> 15(8), 19302–19330.</td>
+<td>Quaternion prediction/correction with explicit reference and transform conventions.</td>
+<td><a href="/RAVEL/modules/orientation-estimation/#a-published-quaternion-filter-architecture">Orientation estimation and original Figure 2</a></td>
+</tr>
+<tr>
+<td><strong>Seth et al. (2018).</strong> <a href="https://doi.org/10.1371/journal.pcbi.1006223">OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement</a>. <em>PLOS Computational Biology</em> 14(7), e1006223.</td>
+<td>Software/model architecture linking physical components and computational states.</td>
+<td><a href="/RAVEL/modules/center-of-mass/#published-model-architecture">COM/OpenSim and original Figure 4</a></td>
+</tr>
+<tr>
+<td><strong>Al Borno et al. (2022).</strong> <a href="https://doi.org/10.1186/s12984-022-01001-x">OpenSense: An open-source toolbox for inertial-measurement-unit-based measurement of lower extremity kinematics over long durations</a>. <em>Journal of NeuroEngineering and Rehabilitation</em> 19, 22.</td>
+<td>Calibrated sensor orientations, model-based IK and long-duration evaluation.</td>
+<td><a href="/RAVEL/modules/relative-joint-kinematics/#separate-fit-residuals-from-measurement-accuracy">Joint kinematics and original Figure 4</a></td>
+</tr>
+<tr>
+<td><strong>Uhlrich et al. (2023).</strong> <a href="https://doi.org/10.1371/journal.pcbi.1011462">OpenCap: Human movement dynamics from smartphone videos</a>. <em>PLOS Computational Biology</em> 19(10), e1011462.</td>
+<td>The inference chain from video to motion and model-derived dynamics.</td>
+<td><a href="/RAVEL/modules/human-motion-sensing/#from-a-sensing-method-to-published-evidence">Motion sensing and original Figure 4</a></td>
+</tr>
+<tr>
+<td><strong>Lambelet et al. (2025).</strong> <a href="https://doi.org/10.3389/fnbot.2025.1562675">Variable admittance control with sEMG-based support for wearable wrist exoskeleton</a>. <em>Frontiers in Neurorobotics</em> 19, 1562675.</td>
+<td>A specific sensing, processing and wrist-actuation architecture.</td>
+<td><a href="/RAVEL/modules/sensing-control-lab/#compare-the-teaching-loop-with-a-published-device-architecture">The control lab and original Figure 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="see-the-sensing-to-action-connection">See the sensing-to-action connection</h2>
+<p><a href="/RAVEL/figures/papers/lambelet-2025-fig2.webp"><img src="/RAVEL/figures/papers/lambelet-2025-fig2.webp" alt="Original Lambelet et al. Figure 2 showing separate IMU gravity-support and sEMG-support processing, force sensing, adaptive admittance and a wrist velocity servo."></a></p>
+<p><strong>Paper figure — Lambelet et al. (2025), Figure 2.</strong> Reproduced unmodified from <a href="https://doi.org/10.3389/fnbot.2025.1562675">the original study</a>, © 2025 Lambelet et al., <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Select the image for full resolution; source notation is preserved.</p>
+<p><strong>Read the paper figure.</strong> Identify each measurement, processing path and control interface. The paper evaluated gravity support and sEMG support separately. Read the clocks and calibration requirements in its methods before treating the combined architecture as an experiment. Compare it with the <a href="/RAVEL/modules/sensing-control-lab/">synthetic cart loop</a>, which has a different plant and sensing policy.</p>
+<h2 id="original-figure-index">Original figure index</h2>
+<p>Six original figures are embedded beside their relevant concepts. Click a figure to inspect its full-resolution local asset. The authors’ colors and symbols retain their original meaning.</p>
+<table>
+<thead>
+<tr>
+<th>Original figure</th>
+<th>Course placement</th>
+<th>What to inspect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seth et al. (2018), <strong>Figure 4</strong></td>
+<td><a href="/RAVEL/modules/center-of-mass/#published-model-architecture">COM / OpenSim</a></td>
+<td>Component model, constraints and computational variables</td>
+</tr>
+<tr>
+<td>Uhlrich et al. (2023), <strong>Figure 4</strong></td>
+<td><a href="/RAVEL/modules/human-motion-sensing/#from-a-sensing-method-to-published-evidence">Human motion sensing</a></td>
+<td>Strategy changes, model-derived moments and agreement axes</td>
+</tr>
+<tr>
+<td>Valenti et al. (2015), <strong>Figure 2</strong></td>
+<td><a href="/RAVEL/modules/orientation-estimation/#a-published-quaternion-filter-architecture">Orientation estimation</a></td>
+<td>IMU-only prediction and accelerometer correction; inverse-quaternion convention</td>
+</tr>
+<tr>
+<td>Al Borno et al. (2022), <strong>Figure 4</strong></td>
+<td><a href="/RAVEL/modules/relative-joint-kinematics/#separate-fit-residuals-from-measurement-accuracy">Relative joint kinematics</a></td>
+<td>Changes in fit residual and independently referenced sensor error</td>
+</tr>
+<tr>
+<td>Abu-Dakka and Saveriano (2020), <strong>Figure 3</strong></td>
+<td><a href="/RAVEL/modules/impedance-and-admittance/#from-fixed-compliance-to-variable-impedance">Impedance/admittance</a></td>
+<td>Parameter adaptation and stationary-reference assumptions</td>
+</tr>
+<tr>
+<td>Lambelet et al. (2025), <strong>Figure 2</strong></td>
+<td><a href="/RAVEL/modules/sensing-control-lab/#compare-the-teaching-loop-with-a-published-device-architecture">Sensing–Control Lab</a></td>
+<td>Sensing paths, calibration, update rates and inner servo</td>
+</tr>
+</tbody>
+</table>
+<p>Each imported figure has an explicitly verified CC BY 4.0 reuse basis, adjacent attribution and source/license links. Figures with separate third-party credits or identifiable participant photographs were excluded. The reading links include additional articles whose images are not reproduced here.</p>
+<h2 id="questions-to-carry-back-to-the-course">Questions to carry back to the course</h2>
+<ul>
+<li>What quantity is directly observed, and what is inferred through a model?</li>
+<li>Which calibration, frame and timestamp conventions connect the channels?</li>
+<li>Does an error metric describe sensor orientation, fit residual, joint angle, moment or tracking?</li>
+<li>Which population, task, reference method and test duration support the result?</li>
+<li>For interaction control, which dynamics and input power were actually evaluated?</li>
+</ul>
+<p>Return to the <a href="/RAVEL/paths/human-sensing-to-robotics/">complete learning sequence</a>. Published figures retain their study context; they are not measurements from RAVEL and do not validate its teaching simulations.</p>
+</div><section class="prose" id="references"><h2>References</h2><ul><li><a href="https://doi.org/10.3390/s19071555">[Systematic review] Poitras et al. (2019): Validity and Reliability of Wearable Sensors for Joint Angle Estimation</a></li><li><a href="https://doi.org/10.3390/s20113322">[Systematic review] Pacher et al. (2020): Sensor-to-Segment Calibration Methodologies for Lower-Body Kinematic Analysis with Inertial Sensors</a></li><li><a href="https://doi.org/10.7717/peerj.12995">[Scoping review] Wade et al. (2022): Applications and limitations of current markerless motion capture methods for clinical gait biomechanics</a></li><li><a href="https://doi.org/10.3389/frobt.2020.590681">[Review] Abu-Dakka and Saveriano (2020): Variable Impedance Control and Learning—A Review</a></li><li><a href="https://doi.org/10.1146/annurev-control-042920-010933">[Review] Hogan (2022): Contact and Physical Interaction</a></li><li><a href="https://doi.org/10.3390/s150819302">[Method research] Valenti, Dryanovski and Xiao (2015): Keeping a Good Attitude — A Quaternion-Based Orientation Filter for IMUs and MARGs</a></li><li><a href="https://doi.org/10.1371/journal.pcbi.1006223">[Software research] Seth et al. (2018): OpenSim — Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement</a></li><li><a href="https://doi.org/10.1186/s12984-022-01001-x">[Method validation] Al Borno et al. (2022): OpenSense — An open-source toolbox for inertial-measurement-unit-based measurement of lower extremity kinematics over long durations</a></li><li><a href="https://doi.org/10.1371/journal.pcbi.1011462">[Method validation] Uhlrich et al. (2023): OpenCap — Human movement dynamics from smartphone videos</a></li><li><a href="https://doi.org/10.3389/fnbot.2025.1562675">[Device research] Lambelet et al. (2025): Variable admittance control with sEMG-based support for wearable wrist exoskeleton</a></li></ul></section></article><aside class="topic-rail" aria-label="Topic guide" data-astro-cid-qifb65ni><details class="responsive-details" data-collapse-below="760" open data-astro-cid-qifb65ni><summary data-astro-cid-qifb65ni>Topic guide<span aria-hidden="true" data-astro-cid-qifb65ni>+</span></summary><div class="rail-content" data-astro-cid-qifb65ni><nav class="on-this-page" aria-label="On this page" data-astro-cid-qifb65ni><p class="rail-heading" data-astro-cid-qifb65ni>On this page</p><ol data-astro-cid-qifb65ni><li data-astro-cid-qifb65ni><a href="#read-a-review-and-a-method-together" data-astro-cid-qifb65ni>Read a review and a method together</a></li><li data-astro-cid-qifb65ni><a href="#start-with-these-five-reviews" data-astro-cid-qifb65ni>Start with these five reviews</a></li><li data-astro-cid-qifb65ni><a href="#then-follow-five-complete-methods" data-astro-cid-qifb65ni>Then follow five complete methods</a></li><li data-astro-cid-qifb65ni><a href="#see-the-sensing-to-action-connection" data-astro-cid-qifb65ni>See the sensing-to-action connection</a></li><li data-astro-cid-qifb65ni><a href="#original-figure-index" data-astro-cid-qifb65ni>Original figure index</a></li><li data-astro-cid-qifb65ni><a href="#questions-to-carry-back-to-the-course" data-astro-cid-qifb65ni>Questions to carry back to the course</a></li><li data-astro-cid-qifb65ni><a href="#references" data-astro-cid-qifb65ni>References</a></li></ol></nav><section><h2>Related explorations</h2><div class="related-item"><a href="/RAVEL/modules/human-motion-sensing/">Human Motion Sensing · Measurements to Model States ↗</a></div><div class="related-item"><a href="/RAVEL/modules/sensor-segment-calibration/">Sensor-to-Segment Calibration · Separate Mounting from Motion ↗</a></div><div class="related-item"><a href="/RAVEL/modules/orientation-estimation/">Orientation Estimation · Rates, Gravity and Heading ↗</a></div><div class="related-item"><a href="/RAVEL/modules/relative-joint-kinematics/">Relative Joint Kinematics · Two Segments, One Relation ↗</a></div><div class="related-item"><a href="/RAVEL/modules/center-of-mass/">Center of Mass · Objects, Segments and Motion ↗</a></div><div class="related-item"><a href="/RAVEL/modules/impedance-and-admittance/">Impedance and Admittance · Designing Interaction ↗</a></div><div class="related-item"><a href="/RAVEL/modules/sensing-control-lab/">Human Sensing to Robot Feedback · A Sampled Control Lab ↗</a></div></section><section><h2>Continue browsing</h2><a href="/RAVEL/notes/">Back to the notebook →</a></section></div></details></aside><script type="module">document.querySelectorAll(`.responsive-details`).forEach(e=>{let t=Number(e.dataset.collapseBelow??760),n=window.matchMedia(`(min-width: ${t}px)`),r=()=>{e.open=n.matches};r(),n.addEventListener(`change`,r)});</script></div></main><footer class="site-footer"><div><a class="footer-brand" href="/RAVEL/">RAVEL</a><p>A growing visual notebook.<br>Motion, sensing, dynamics, and control.</p></div><nav aria-label="Footer navigation"><a href="/RAVEL/explore/">Explore topics ↗</a><a href="/RAVEL/about/">About RAVEL ↗</a><a href="/RAVEL/notes/why-ravel-exists/">The first note ↗</a></nav><span class="footer-status"><i></i> An evolving collection · v0.2</span></footer></body></html>

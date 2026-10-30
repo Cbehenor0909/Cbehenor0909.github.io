@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 540" role="img" aria-labelledby="title desc">
+  <title id="title">One acceleration input can move velocity and position</title>
+  <desc id="desc">Signal chain for the ideal unit-mass double integrator. Known acceleration input u enters a time integrator to produce velocity v, then a second integrator to produce position q. The position sensor measures y equals q. Input changes reach velocity directly and reach position through the dynamics; observing position over time reveals its slope, velocity. Integrators include the corresponding initial state. This schematic explains the rank-two controllability and observability matrices, not numerical estimation by differencing noisy data.</desc>
+  <defs><marker id="flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2269B0"/></marker></defs>
+  <rect width="480" height="540" rx="8" fill="#FFFFFF"/>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#172B42" text-anchor="middle">
+    <text x="240" y="34" font-size="24" font-weight="600">One actuator, two reachable states</text><text x="240" y="77">u = acceleration</text>
+    <path d="M240 86V111M240 163V189M240 245V271M240 323V349M240 405V431" fill="none" stroke="#2269B0" stroke-width="2.5" marker-end="url(#flow)"/>
+    <rect x="177" y="115" width="126" height="48" rx="4" fill="#EAF0F6" stroke="#172B42" stroke-width="1.7"/><text x="240" y="146">Integrate</text>
+    <rect x="154" y="195" width="172" height="50" rx="4" fill="#2269B0" fill-opacity=".07" stroke="#2269B0" stroke-width="2"/><text x="240" y="227">Velocity v</text>
+    <rect x="177" y="275" width="126" height="48" rx="4" fill="#EAF0F6" stroke="#172B42" stroke-width="1.7"/><text x="240" y="306">Integrate</text>
+    <rect x="154" y="355" width="172" height="50" rx="4" fill="#2269B0" fill-opacity=".07" stroke="#2269B0" stroke-width="2"/><text x="240" y="387">Position q</text>
+    <rect x="126" y="437" width="228" height="50" rx="4" fill="#FFFFFF" stroke="#966007" stroke-width="2"/><text x="240" y="469">Sensor: y = q</text>
+    <text x="88" y="214" fill="#56697C">direct</text><text x="78" y="241" fill="#56697C">input effect</text><path d="M113 226H142" fill="none" stroke="#56697C"/>
+    <text x="396" y="361" fill="#56697C">through</text><text x="396" y="388" fill="#56697C">dynamics</text><path d="M337 377H348" fill="none" stroke="#56697C"/>
+    <text x="240" y="524">Position history reveals its slope v.</text>
+  </g>
+</svg>

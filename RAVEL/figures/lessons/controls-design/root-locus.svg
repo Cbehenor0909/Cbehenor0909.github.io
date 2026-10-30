@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 540" role="img" aria-labelledby="title desc">
+  <title id="title">Exact root locus of one over s times s plus two</title>
+  <desc id="desc">Closed-loop roots of s squared plus two s plus K equal zero for nonnegative K. Equal axis scale is 70 pixels per inverse second. At zero gain, crosses mark poles at zero and minus two. For gain between zero and one the poles approach minus one along the real axis. At K equals one they merge at minus one. For higher gain they separate vertically along real part minus one, which is also the asymptote line. Hollow circles at K equals two mark minus one plus or minus j. Filled circles at K equals four mark minus one plus or minus j square root of three. Arrows show increasing gain, not increasing time.</desc>
+  <defs>
+    <marker id="axis" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="none" stroke="#56697C" stroke-width="1.5"/></marker>
+    <marker id="gain" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2269B0"/></marker>
+  </defs>
+  <rect width="480" height="540" rx="8" fill="#FFFFFF"/>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#172B42">
+    <text x="24" y="34" font-size="24" font-weight="600">Gain changes the pole locations</text>
+    <text x="24" y="65">L<tspan dy="6" font-size="14">0</tspan><tspan dy="-6">(s) = 1 / [s(s + 2)]</tspan></text>
+    <path d="M84 245H443M330 400V89" fill="none" stroke="#56697C" stroke-width="1.7" marker-end="url(#axis)"/>
+    <text x="367" y="277">Re(s)</text><text x="345" y="117">Im(s)</text>
+    <path d="M260 92V401" fill="none" stroke="#56697C" stroke-width="1.5" stroke-dasharray="5 6"/>
+    <path d="M190 245H260M330 245H260M260 245V99M260 245V390" fill="none" stroke="#2269B0" stroke-width="3.5"/>
+    <g fill="none" stroke="#2269B0" stroke-width="2.5" marker-end="url(#gain)">
+      <path d="M203 245H238"/>
+      <path d="M316 245H282"/>
+      <path d="M260 167V135"/>
+      <path d="M260 326V370"/>
+    </g>
+    <path d="M183 238L197 252M183 252L197 238M323 238L337 252M323 252L337 238" stroke="#172B42" stroke-width="3"/>
+    <circle cx="260" cy="245" r="7" fill="#966007"/>
+    <circle cx="260" cy="175" r="6" fill="#FFFFFF" stroke="#2269B0" stroke-width="3"/><circle cx="260" cy="315" r="6" fill="#FFFFFF" stroke="#2269B0" stroke-width="3"/>
+    <circle cx="260" cy="123.756" r="6" fill="#2269B0"/><circle cx="260" cy="366.244" r="6" fill="#2269B0"/>
+    <text x="169" y="280">−2</text><text x="245" y="280">−1</text><text x="323" y="280">0</text>
+    <text x="111" y="187">K = 2: −1 + j</text><path d="M233 181L250 177" stroke="#56697C" fill="none"/>
+    <text x="24" y="108">K = 4: −1 + j√3</text><path d="M200 104L250 119" stroke="#56697C" fill="none"/>
+    <text x="80" y="335">K = 2: −1 − j</text><path d="M204 330L250 317" stroke="#56697C" fill="none"/>
+    <text x="26" y="397">K = 4: −1 − j√3</text><path d="M203 390L250 370" stroke="#56697C" fill="none"/>
+    <text x="284" y="220" fill="#966007">K = 1</text>
+    <text x="24" y="438">× Open-loop poles (K = 0)</text><text x="24" y="469" fill="#2269B0">Arrows: increasing K</text>
+    <text x="24" y="500">Vertical branches: Re(s) = −1</text><text x="24" y="527" fill="#56697C">Decay stays fixed; oscillation speeds up.</text>
+  </g>
+</svg>

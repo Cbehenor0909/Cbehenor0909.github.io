@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 465" role="img" aria-labelledby="title desc">
+  <title id="title">Convolution combines the surviving effects of past inputs</title>
+  <desc id="desc">Three schematic pieces of input occur at different earlier times. Each piece propagates for its own age, t minus tau, before contributing to the displacement at the same observation time t. The diagram represents the continuous sum in the convolution integral and is not a three sample numerical approximation.</desc>
+  <defs><marker id="signal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#2269B0"/></marker></defs>
+  <rect x="1" y="1" width="478" height="463" rx="10" fill="#FFFFFF" stroke="#D4DEE8"/>
+  <g font-family="Arial, sans-serif" fill="#172B42" font-size="28">
+    <text x="24" y="35" font-size="26">At one observation time t</text>
+    <text x="24" y="68" font-size="22">Every past push leaves an effect.</text>
+    <rect x="24" y="93" width="338" height="70" rx="5" fill="#EAF0F6" stroke="#2269B0"/>
+    <rect x="24" y="193" width="338" height="70" rx="5" fill="#EAF0F6" stroke="#2269B0"/>
+    <rect x="24" y="293" width="338" height="70" rx="5" fill="#EAF0F6" stroke="#2269B0"/>
+    <text x="40" y="122">Earlier input at τ<tspan baseline-shift="sub" font-size="17">1</tspan></text>
+    <text x="40" y="151" fill="#2269B0">Propagate for t − τ<tspan baseline-shift="sub" font-size="17">1</tspan></text>
+    <text x="40" y="222">Later input at τ<tspan baseline-shift="sub" font-size="17">2</tspan></text>
+    <text x="40" y="251" fill="#2269B0">Propagate for t − τ<tspan baseline-shift="sub" font-size="17">2</tspan></text>
+    <text x="40" y="322">Recent input at τ<tspan baseline-shift="sub" font-size="17">3</tspan></text>
+    <text x="40" y="351" fill="#2269B0">Propagate for t − τ<tspan baseline-shift="sub" font-size="17">3</tspan></text>
+    <path d="M363 128H420V391M363 228H420M363 328H420" fill="none" stroke="#2269B0" stroke-width="3"/>
+    <path d="M420 391V412H350" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <rect x="24" y="390" width="316" height="55" rx="5" fill="#FAF2DD" stroke="#966007"/>
+    <text x="182" y="425" text-anchor="middle" fill="#966007">Sum all effects → q(t)</text>
+  </g>
+</svg>

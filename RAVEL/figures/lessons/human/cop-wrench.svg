@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 590" role="img" aria-labelledby="title desc">
+  <title id="title">Center of pressure and wrench origin</title>
+  <desc id="desc">Distributed upward red contact forces combine at a teal COP cross. The ochre COM belongs to the body's mass. A lower side view shows the contact surface above a plate origin and the height offset needed for moments.</desc>
+  <defs><marker id="force" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#B93C3B"/></marker><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#56697C"/></marker></defs>
+  <rect width="480" height="590" fill="#FFFFFF"/>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#172B42">
+    <text x="24" y="32" font-weight="600">COP weights contact; COM weights mass</text>
+    <path d="M260 75L260 150L207 206M260 150L285 206" fill="none" stroke="#172B42" stroke-width="5"/>
+    <circle cx="260" cy="112" r="9" fill="#966007"/>
+    <text x="279" y="119" fill="#966007">COM</text>
+    <path d="M164 212Q158 198 180 198L280 198Q305 197 311 211Z" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/>
+    <g fill="none" stroke="#B93C3B" stroke-width="3" marker-end="url(#force)"><path d="M175 258V218"/><path d="M202 258V218"/><path d="M232 258V207"/><path d="M260 258V196"/><path d="M290 258V219"/></g>
+    <path d="M234 190V214M222 202H246" fill="none" stroke="#087478" stroke-width="4"/>
+    <path d="M316 174L246 199" fill="none" stroke="#087478" stroke-width="2"/>
+    <text x="319" y="172" fill="#087478">COP</text>
+    <text x="24" y="292" fill="#B93C3B">Distributed forces on the body</text>
+    <path d="M24 314H456" stroke="#C8D4E0"/>
+    <text x="24" y="348" font-weight="600">Plate origin below the contact plane</text>
+    <rect x="67" y="426" width="347" height="69" rx="3" fill="#EAF0F6" stroke="#56697C" stroke-width="2"/>
+    <g stroke="#56697C" stroke-width="2" marker-end="url(#axis)"><path d="M114 487H205"/><path d="M114 487V389"/></g>
+    <circle cx="114" cy="487" r="5" fill="#172B42"/>
+    <text x="84" y="516">O</text><text x="202" y="508">x</text><text x="95" y="390">z</text>
+    <path d="M104 426H57M104 487H57M63 426V487" stroke="#56697C" stroke-width="2"/>
+    <text x="34" y="464">h</text>
+    <path d="M291 426L333 368" fill="none" stroke="#B93C3B" stroke-width="4" marker-end="url(#force)"/>
+    <path d="M291 414V438M279 426H303" fill="none" stroke="#087478" stroke-width="4"/>
+    <text x="341" y="380" fill="#B93C3B">F</text>
+    <text x="315" y="461" fill="#087478">COP</text>
+    <path d="M114 487L291 426" fill="none" stroke="#56697C" stroke-width="2" stroke-dasharray="5 5"/>
+    <text x="250" y="514">Side view: x–z</text>
+    <text x="24" y="560" fill="#56697C">Schematic · wrench uses force on body</text>
+  </g>
+</svg>

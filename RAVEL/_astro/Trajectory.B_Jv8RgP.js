@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime.DK-X9XDJ.js";var t=e();function n(e,t,n,r){return e.map((e,i)=>`${i===0?`M`:`L`}${(t+e.x*r).toFixed(2)},${(n-e.y*r).toFixed(2)}`).join(` `)}function r({points:e,x:r=300,y:i=250,scale:a=165,className:o=``}){return(0,t.jsx)(`path`,{d:n(e,r,i,a),className:`trajectory ${o}`,fill:`none`})}export{r as t};

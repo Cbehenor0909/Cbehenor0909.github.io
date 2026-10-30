@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 450" role="img" aria-labelledby="title desc">
+  <title id="title">The mechanical state closes the feedback loop</title>
+  <desc id="desc">A position reference passes through the gain N equals six to a summing junction. The commanded force drives the mass spring damper plant with m equals one, c equals two and k equals four. The plant returns position and velocity to the gain K equals two comma three, which is subtracted at the junction. The nominal closed loop has poles minus two and minus three. This is an ideal full-state feedback schematic, without actuator dynamics or an observer.</desc>
+  <defs>
+    <marker id="signal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#2269B0" stroke-width="1.5"/></marker>
+    <marker id="force" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#B93C3B" stroke-width="1.5"/></marker>
+  </defs>
+  <g font-family="system-ui, sans-serif" font-size="21" fill="#172B42">
+    <text x="24" y="38" font-size="23" font-weight="600">Close the loop with q and v</text>
+    <text x="24" y="76" fill="#56697C">v is the velocity of the mass</text>
+    <rect x="66" y="144" width="94" height="68" rx="3" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/>
+    <text x="113" y="185" text-anchor="middle">N = 6</text>
+    <circle cx="212" cy="178" r="21" fill="#FFFFFF" stroke="#172B42" stroke-width="2"/>
+    <text x="181" y="157" font-size="24">+</text>
+    <text x="226" y="227" font-size="24">−</text>
+    <rect x="270" y="131" width="154" height="95" rx="3" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/>
+    <text x="347" y="158" text-anchor="middle" font-weight="600">Plant</text>
+    <text x="347" y="185" text-anchor="middle">m = 1, c = 2</text>
+    <text x="347" y="212" text-anchor="middle">k = 4</text>
+    <g fill="none" stroke="#2269B0" stroke-width="2.5" marker-end="url(#signal)">
+      <path d="M22 178 H65"/>
+      <path d="M160 178 H190"/>
+      <path d="M424 178 H462"/>
+      <path d="M347 226 V286"/>
+      <path d="M282 321 H212 V200"/>
+    </g>
+    <path d="M233 178 H267" fill="none" stroke="#B93C3B" stroke-width="2.5" marker-end="url(#force)"/>
+    <text x="30" y="155" fill="#2269B0">r</text>
+    <text x="242" y="156" fill="#B93C3B">u</text>
+    <text x="432" y="151" fill="#2269B0">q</text>
+    <text x="362" y="262" fill="#966007">q, v</text>
+    <rect x="282" y="288" width="150" height="68" rx="3" fill="#FFFFFF" stroke="#2269B0" stroke-width="2"/>
+    <text x="357" y="329" text-anchor="middle" fill="#2269B0">K = [2, 3]</text>
+    <text x="24" y="402" font-size="22">Force command: u = 6r − 2q − 3v</text>
+    <text x="24" y="433" font-size="21" fill="#56697C">Closed-loop poles: −2 and −3</text>
+  </g>
+</svg>

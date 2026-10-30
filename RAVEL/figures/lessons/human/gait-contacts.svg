@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 650" role="img" aria-labelledby="title desc">
+<title id="title">Walking contact phases and support polygons</title>
+<desc id="desc">Three plan-view schematics show initial double support, single support with a dashed swing foot excluded from the polygon, and new double support after touchdown. Solid feet are loaded contacts and blue areas are the exact convex hulls of the schematic polygonal feet.</desc>
+<rect width="480" height="650" fill="#FFFFFF"/>
+<g font-family="system-ui, sans-serif" font-size="20" fill="#172B42">
+<text x="24" y="33" font-weight="600">A swing foot is not current support</text>
+<text x="24" y="78" font-weight="600">1 · Double support</text>
+<polygon points="115,120 120,106 154,106 344,136 355,150 353,201 335,214 145,184 120,176 115,161" fill="#2269B0" fill-opacity="0.12" stroke="#2269B0" stroke-width="2"/>
+<polygon points="115,120 120,106 154,106 165,120 163,171 145,184 120,176 115,161" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/><polygon points="305,150 310,136 344,136 355,150 353,201 335,214 310,206 305,191" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/>
+<text x="113" y="241">Loaded</text><text x="299" y="241">Loaded</text>
+<path d="M24 264H456" stroke="#C8D4E0"/>
+<text x="24" y="300" font-weight="600">2 · Single support</text>
+<polygon points="115,336 120,322 154,322 165,336 163,387 145,400 120,392 115,377" fill="#2269B0" fill-opacity="0.12" stroke="#2269B0" stroke-width="3"/><polygon points="305,321 310,307 344,307 355,321 353,372 335,385 310,377 305,362" fill="none" stroke="#56697C" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="113" y="430">Loaded</text><text x="304" y="407" fill="#56697C">Swing</text>
+<text x="263" y="435" fill="#56697C">Excluded</text>
+<path d="M24 457H456" stroke="#C8D4E0"/>
+<text x="24" y="493" font-weight="600">3 · New contact after touchdown</text>
+<polygon points="115,540 120,526 310,512 344,512 355,526 353,577 335,590 145,604 120,596 115,581" fill="#2269B0" fill-opacity="0.12" stroke="#2269B0" stroke-width="2"/>
+<polygon points="115,540 120,526 154,526 165,540 163,591 145,604 120,596 115,581" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/><polygon points="305,526 310,512 344,512 355,526 353,577 335,590 310,582 305,567" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/>
+<text x="24" y="635" fill="#56697C">Plan views · schematic geometry</text>
+</g></svg>

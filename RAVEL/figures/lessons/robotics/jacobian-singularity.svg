@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 350" role="img" aria-labelledby="title desc">
+  <title id="title">A straight arm loses an instantaneous task direction</title>
+  <desc id="desc">The fully extended two-link arm is horizontal. Both joint contributions to tool velocity are vertical. A dashed horizontal line marks the tool direction unavailable at this configuration.</desc>
+  <defs><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2269B0"/></marker></defs>
+  <rect width="480" height="350" fill="#FFFFFF"/>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#172B42">
+    <text x="24" y="33" font-size="23" font-weight="600">Straight arm: q₂ = 0</text>
+    <path d="M60 202H405" stroke="#172B42" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="60" cy="202" r="10" fill="#FFFFFF" stroke="#172B42" stroke-width="3"/>
+    <circle cx="267" cy="202" r="10" fill="#FFFFFF" stroke="#172B42" stroke-width="3"/>
+    <circle cx="405" cy="202" r="8" fill="#966007"/>
+    <path d="M389 202V89" stroke="#2269B0" stroke-width="4" marker-end="url(#blue)"/>
+    <path d="M420 202V117" stroke="#2269B0" stroke-width="4" marker-end="url(#blue)"/>
+    <text x="295" y="80" fill="#2269B0">same direction</text>
+    <path d="M330 202H460" stroke="#56697C" stroke-width="3" stroke-dasharray="6 5"/>
+    <text x="54" y="239">joint 1</text><text x="244" y="239">joint 2</text><text x="390" y="239">tool</text>
+    <text x="24" y="283">Along-arm velocity is unavailable</text>
+    <text x="24" y="324" fill="#56697C">Schematic · instantaneous point task</text>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime.DK-X9XDJ.js";var t=e();function n({length:e,transform:n,groupRef:r,className:i=``,label:a}){return(0,t.jsxs)(`g`,{ref:r,transform:n,className:`vector-arrow ${i}`,children:[(0,t.jsx)(`path`,{d:`M0 0H${e}m-7 -4 7 4-7 4`,fill:`none`}),a&&(0,t.jsx)(`text`,{x:e+10,y:5,children:a})]})}export{n as t};

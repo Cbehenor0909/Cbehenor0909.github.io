@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 470" role="img" aria-labelledby="title desc">
+  <title id="title">A planar joint separates world and relative motion</title>
+  <desc id="desc">The proximal world angle is twenty degrees and distal world angle sixty-five degrees. The relative orientation is forty-five degrees. Model rates of ten and thirty-five degrees per second give a relative rate of twenty-five degrees per second.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#56697C"/></marker></defs>
+  <rect width="480" height="470" fill="#FFFFFF"/>
+  <g font-family="system-ui,sans-serif" font-size="20" fill="#172B42">
+    <text x="240" y="29" text-anchor="middle" font-weight="600">World motion vs relative motion</text>
+    <text x="240" y="61" text-anchor="middle" fill="#56697C">Planar two-link model</text>
+    <path d="M42 309H429" fill="none" stroke="#56697C" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="340" y="340" fill="#56697C">World x</text>
+    <path d="M48 309L245.3 237.2L321.4 74.1" fill="none" stroke="#172B42" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M245.3 237.2L420 173.6M245.3 237.2H421" fill="none" stroke="#56697C" stroke-width="2" stroke-dasharray="7 5"/>
+    <circle cx="48" cy="309" r="8" fill="#FFFFFF" stroke="#172B42" stroke-width="3"/><circle cx="245.3" cy="237.2" r="10" fill="#FFFFFF" stroke="#172B42" stroke-width="3"/>
+    <path d="M108 309A60 60 0 0 0 104.4 288.5" fill="none" stroke="#966007" stroke-width="3"/>
+    <text x="104" y="280" fill="#966007">20°</text>
+    <path d="M355.3 237.2A110 110 0 0 0 291.8 137.5" fill="none" stroke="#56697C" stroke-width="2"/>
+    <text x="372" y="220" fill="#56697C">65°</text>
+    <path d="M325.2 208.1A85 85 0 0 0 281.2 160.2" fill="none" stroke="#966007" stroke-width="4"/>
+    <text x="313" y="157" fill="#966007" font-weight="600">45° relative</text>
+    <text x="102" y="232">Proximal B1</text><text x="338" y="109">Distal B2</text>
+    <text x="104" y="368" fill="#2269B0">World rates: 10°/s and 35°/s</text>
+    <text x="240" y="405" text-anchor="middle" fill="#2269B0" font-weight="600">Relative rate: 25°/s</text>
+    <text x="240" y="446" text-anchor="middle" fill="#56697C">Model angles, not clinical angles.</text>
+  </g>
+</svg>

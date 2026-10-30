@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 430" role="img" aria-labelledby="title desc">
+  <title id="title">Motor effort balances inertia, friction and gravity</title>
+  <desc id="desc">A uniform rod is tilted thirty degrees from downward vertical. Gravity acts downward at the rod midpoint. A positive red motor torque and blue angular velocity turn it away from downward vertical.</desc>
+  <defs>
+    <marker id="red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#B93C3B"/></marker>
+    <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2269B0"/></marker>
+  </defs>
+  <rect width="480" height="430" fill="#FFFFFF"/>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#172B42">
+    <text x="24" y="33" font-size="23" font-weight="600">One gravity-loaded joint</text>
+    <path d="M98 93H195" stroke="#172B42" stroke-width="6"/>
+    <path d="M145 106V338" stroke="#56697C" stroke-width="2" stroke-dasharray="6 5"/>
+    <path d="M145 106L265 314" stroke="#172B42" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="145" cy="106" r="13" fill="#FFFFFF" stroke="#172B42" stroke-width="3"/>
+    <circle cx="205" cy="210" r="7" fill="#966007"/>
+    <path d="M205 216V291" stroke="#B93C3B" stroke-width="4" marker-end="url(#red)"/>
+    <path d="M102 144A58 58 0 0 0 196 145" fill="none" stroke="#B93C3B" stroke-width="4" marker-end="url(#red)"/>
+    <path d="M242 256A178 178 0 0 0 305 190" fill="none" stroke="#2269B0" stroke-width="4" marker-end="url(#blue)"/>
+    <text x="36" y="163" fill="#B93C3B">τ</text><text x="319" y="195" fill="#2269B0">q̇ &gt; 0</text>
+    <path d="M145 181A75 75 0 0 0 182.5 171" fill="none" stroke="#966007" stroke-width="2"/>
+    <text x="79" y="213" fill="#966007">q = 30°</text>
+    <text x="222" y="228">COM</text><text x="220" y="286" fill="#B93C3B">mg</text>
+    <text x="281" y="325">l = 0.6 m</text><text x="24" y="376">m = 2 kg · fixed pivot</text>
+    <text x="24" y="414" fill="#56697C">Schematic · angle from downward vertical</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 410" width="480" height="410" role="img" aria-labelledby="title desc">
+<title id="title">Rigid pendulum geometry and restoring moment</title><desc id="desc">A uniform rod of length l is pinned at O and tilted thirty degrees from downward vertical. Its COM is halfway along the rod. Gravity acts downward at COM; the horizontal moment arm makes gravity restore the hanging position. Applied torque is positive with increasing theta.</desc>
+<defs>
+<marker id="dark" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#172B42"/></marker>
+<marker id="blue" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#2269B0"/></marker>
+<marker id="red" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#B93C3B"/></marker>
+<marker id="ochre" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#966007"/></marker>
+</defs>
+<style>text{font-family:"Segoe UI",Arial,sans-serif;font-size:20px;fill:#172B42} .heading{font-size:22px;font-weight:600} .muted{fill:#56697C} .blue{fill:#2269B0} .red{fill:#B93C3B} .ochre{fill:#966007} .axis{stroke:#172B42;stroke-width:2;fill:none;marker-end:url(#dark)} .geometry{stroke:#172B42;stroke-width:3;fill:#EAF0F6} .velocity{stroke:#2269B0;stroke-width:3;fill:none;marker-end:url(#blue)} .force{stroke:#B93C3B;stroke-width:3;fill:none;marker-end:url(#red)} .guide{stroke:#A9B8C7;stroke-width:1.8;stroke-dasharray:6 5;fill:none} .highlight{stroke:#966007;stroke-width:3;fill:none;marker-end:url(#ochre)} .sub{font-size:15px}</style>
+<rect x="1" y="1" width="478" height="408" rx="8" fill="#FFFFFF" stroke="#D3DDE7"/>
+
+<text x="24" y="34" class="heading">Geometry sets the gravity moment</text>
+<path d="M133 80 H218 M143 70 L133 80 M164 70 L154 80 M185 70 L175 80 M206 70 L196 80" stroke="#56697C" stroke-width="2"/>
+<path class="guide" d="M180 95 V347"/>
+<path d="M180 95 L300 303" stroke="#172B42" stroke-width="10" stroke-linecap="round"/>
+<circle cx="180" cy="95" r="8" fill="#FFFFFF" stroke="#172B42" stroke-width="3"/><text x="145" y="111">O</text>
+<circle cx="240" cy="199" r="7" fill="#966007"/><text x="253" y="199" class="ochre">C</text>
+<path class="highlight" d="M180 141 A46 46 0 0 0 203 135"/><text x="210" y="153" class="ochre">θ</text>
+<path class="force" d="M180 164 A69 69 0 0 0 240 130"/><text x="253" y="127" class="red">τ</text>
+<path class="force" d="M240 199 V310"/><text x="255" y="277" class="red">mg</text>
+<text x="300" y="251">l</text><text x="181" y="193">l/2</text>
+<path class="guide" d="M180 334 H240 M240 199 V340"/><text x="215" y="364">Gravity lever arm</text>
+<text x="24" y="396" class="muted">θ = 30° shown; positive τ increases θ.</text>
+
+</svg>

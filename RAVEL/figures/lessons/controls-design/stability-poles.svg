@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 460" role="img" aria-labelledby="title desc">
+  <title id="title">Pole position separates decay, sustained oscillation and growth</title>
+  <desc id="desc">Complex s-plane with equal coordinate scales of 70 pixels per inverse second. The imaginary axis divides negative and positive real parts. The worked second-order model has highlighted poles at minus one plus or minus j square root of three. Its oscillation decays because the real part is negative. A pole on the imaginary axis can sustain a mode; a right-half-plane pole grows. This is a mode geometry diagram, not a sampled response or a complete test of repeated imaginary-axis poles.</desc>
+  <defs><marker id="axis" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="none" stroke="#56697C" stroke-width="1.7"/></marker></defs>
+  <rect width="480" height="460" rx="8" fill="#FFFFFF"/>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#172B42">
+    <text x="24" y="34" font-size="24" font-weight="600">Poles tell you how modes behave</text>
+    <rect x="60" y="66" width="260" height="270" fill="#EAF0F6"/>
+    <rect x="320" y="66" width="120" height="270" fill="#966007" opacity=".08"/>
+    <path d="M60 200H442M320 336V63" fill="none" stroke="#56697C" stroke-width="1.7" marker-end="url(#axis)"/>
+    <text x="349" y="228">Re(s)</text><text x="336" y="93">Im(s)</text>
+    <path d="M250 196V204M180 196V204M110 196V204" stroke="#56697C" stroke-width="1.5"/>
+    <text x="238" y="227">−1</text><text x="168" y="227">−2</text><text x="98" y="227">−3</text><text x="311" y="227">0</text>
+    <path d="M250 87V313" stroke="#2269B0" stroke-width="1.5" stroke-dasharray="6 6"/>
+    <circle cx="250" cy="78.756" r="6" fill="#966007"/><circle cx="250" cy="321.244" r="6" fill="#966007"/>
+    <path d="M245 73.756L255 83.756M245 83.756L255 73.756M245 316.244L255 326.244M245 326.244L255 316.244" stroke="#172B42" stroke-width="2"/>
+    <text x="83" y="88">−1 + j√3</text><path d="M194 86L240 80" fill="none" stroke="#56697C"/>
+    <text x="83" y="321">−1 − j√3</text><path d="M194 318L240 321" fill="none" stroke="#56697C"/>
+    <text x="81" y="140" fill="#2269B0">Negative real part</text><text x="97" y="167" fill="#2269B0">decay</text>
+    <text x="338" y="144" fill="#966007">Positive</text><text x="338" y="171" fill="#966007">real part</text><text x="349" y="269" fill="#966007">growth</text>
+    <path d="M314 111L326 123M314 123L326 111" stroke="#172B42" stroke-width="2.5"/>
+    <path d="M324 114L374 108" stroke="#56697C" fill="none"/><text x="332" y="59">no decay</text>
+    <text x="24" y="373" font-weight="600">Worked poles: −1 ± j√3</text>
+    <text x="24" y="404">Decay rate: 1 s<tspan dy="-7" font-size="14">−1</tspan><tspan dy="7">; oscillation: √3 rad/s</tspan></text>
+    <text x="24" y="435" fill="#56697C">A pole plot is not a trajectory in time.</text>
+  </g>
+</svg>

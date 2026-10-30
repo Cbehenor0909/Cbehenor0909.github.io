@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 450" role="img" aria-labelledby="title desc">
+  <title id="title">State memory and direct feedthrough are separate output paths</title>
+  <desc id="desc">The input enters two parallel paths. The first changes internal states and reaches the output through C. The second reaches the output immediately through D. Both are added. For the mass example, position and velocity have D zero, but acceleration has D equal to one per kilogram.</desc>
+  <defs><marker id="signal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#2269B0"/></marker></defs>
+  <rect x="1" y="1" width="478" height="448" rx="10" fill="#FFFFFF" stroke="#D4DEE8"/>
+  <g font-family="Arial, sans-serif" fill="#172B42" font-size="28" text-anchor="middle">
+    <text x="240" y="35" font-size="26">Two ways an input reaches y</text>
+    <text x="240" y="92" fill="#2269B0">u(t)</text>
+    <path d="M240 104V132H121V167" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <path d="M240 132H360V167" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <rect x="24" y="177" width="200" height="93" rx="5" fill="#FAF2DD" stroke="#966007"/>
+    <rect x="276" y="177" width="180" height="93" rx="5" fill="#EAF0F6" stroke="#2269B0"/>
+    <text x="124" y="213" fill="#966007">States x(t)</text>
+    <text x="124" y="248">Memory</text>
+    <text x="366" y="213" fill="#2269B0">D u(t)</text>
+    <text x="366" y="248">Immediate</text>
+    <path d="M124 270V351H211" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <path d="M366 270V351H269" fill="none" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <text x="80" y="313" fill="#2269B0">C x(t)</text>
+    <circle cx="240" cy="351" r="23" fill="#FFFFFF" stroke="#172B42" stroke-width="2"/>
+    <text x="240" y="360" font-size="30">+</text>
+    <path d="M240 374V397" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
+    <text x="240" y="432" fill="#2269B0">y(t) = C x(t) + D u(t)</text>
+  </g>
+</svg>
