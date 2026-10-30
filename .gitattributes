@@ -1,0 +1,2 @@
+# Keep generated release files byte-identical to the validated Astro build.
+RAVEL/** -text
