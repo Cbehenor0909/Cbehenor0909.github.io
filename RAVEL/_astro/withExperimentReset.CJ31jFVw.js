@@ -1,0 +1,1 @@
+import{t as e}from"./react.DJY1zw8Z.js";import{t}from"./jsx-runtime.DK-X9XDJ.js";var n=e(),r=t();function i(e){return function(){let[t,i]=(0,n.useState)(0);return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e,{},t),(0,r.jsx)(`div`,{className:`experiment-reset`,children:(0,r.jsx)(`button`,{type:`button`,onClick:()=>i(e=>e+1),children:`Reset all settings`})})]})}}export{i as t};

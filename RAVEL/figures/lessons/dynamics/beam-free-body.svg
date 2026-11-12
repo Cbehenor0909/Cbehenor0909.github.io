@@ -22,6 +22,6 @@
 <text x="64" y="289">A</text><text x="404" y="289">B</text>
 <path d="M70 370 H410 M70 363 V377 M240 363 V377 M325 363 V377 M410 363 V377" fill="none" stroke="#56697C" stroke-width="2"/>
 <text x="60" y="401">0</text><text x="226" y="401">1</text><text x="309" y="401">1.5</text><text x="397" y="401">2 m</text>
-<text x="24" y="423" class="muted">A is a pin; B is a roller. A<tspan class="sub" baseline-shift="sub">x</tspan> = 0.</text>
+<text x="24" y="433" class="muted">A is a pin; B is a roller. A<tspan class="sub" baseline-shift="sub">x</tspan> = 0.</text>
 
 </svg>

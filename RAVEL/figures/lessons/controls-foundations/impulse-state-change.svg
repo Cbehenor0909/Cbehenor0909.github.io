@@ -11,7 +11,7 @@
     <path d="M35 163H158" stroke="#56697C" stroke-width="2"/>
     <path d="M85 163V89" stroke="#B93C3B" stroke-width="4" marker-end="url(#force)"/>
     <text x="145" y="193">t</text>
-    <text x="24" y="219" fill="#B93C3B">Area 1 N·s</text>
+    <text x="24" y="230" fill="#B93C3B">Area 1 N·s</text>
     <path d="M177 140H236" stroke="#2269B0" stroke-width="3" marker-end="url(#signal)"/>
     <rect x="250" y="93" width="194" height="128" rx="5" fill="#EAF0F6" stroke="#172B42" stroke-width="2"/>
     <text x="347" y="126" text-anchor="middle">Mass + spring</text>

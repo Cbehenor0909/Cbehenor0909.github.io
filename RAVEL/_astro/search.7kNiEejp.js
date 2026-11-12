@@ -1,0 +1,1 @@
+function e(e){return e.normalize(`NFKD`).toLowerCase().replace(/\p{M}/gu,``).replace(/[^\p{L}\p{N}]+/gu,` `).trim()}function t(t,n){let r=e(n);if(!r)return!0;let i=t.split(/\s+/);return r.split(` `).every(e=>i.some(t=>t===e||e.length>3&&t.startsWith(e)))}export{t};
